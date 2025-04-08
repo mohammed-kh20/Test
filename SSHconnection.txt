@@ -1,0 +1,11 @@
+1-first i have to generate a SSh key so i follow this link :
+
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+2- in this website there is a commends i follow them to creat a connection
+
+ssh-keygen -t ed25519 -C "i put my email in github" then i follow the instructions after that
+
+3- in the left of the window there is an option named "Add new SSH key" i click on it and there is a commend clip < ~/.ssh/id_ed25519.pub this commend copy the ssh key to may clip board
+
+4-after these steps i go to settings then  to Access section then to SSH and GPG keys then click on new SSH key then i write a title for the key then i paste the SSH key after that i click on add SSH key it asks me to enter my GitHub pass
