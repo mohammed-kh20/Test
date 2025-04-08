@@ -9,3 +9,17 @@ ssh-keygen -t ed25519 -C "i put my email in github" then i follow the instructio
 3- in the left of the window there is an option named "Add new SSH key" i click on it and there is a commend clip < ~/.ssh/id_ed25519.pub this commend copy the ssh key to may clip board
 
 4-after these steps i go to settings then  to Access section then to SSH and GPG keys then click on new SSH key then i write a title for the key then i paste the SSH key after that i click on add SSH key it asks me to enter my GitHub pass
+
+5-finally i took the ssh link to make my repo connection using these commends
+
+git init 
+git add .
+git commet -m "Task"
+git remote add origin ..pasting my link
+git branch -M main
+git push -u origin main //in this case it asks me to answer yes or no to continue i answered yes 
+
+
+
+
+...........
