@@ -1,0 +1,17 @@
+Q1:
+
+git status : This command shows me the current status of the files in my project. It tells me which files have been changed, which ones are staged, and which are not being tracked by Git.
+
+git init : I use this command when I want to start using Git in a folder. It initializes a new Git repository in that directory.
+
+git commit : This command saves the changes I have staged using git add. It creates a snapshot of the changes, and I usually have to add a message to describe what I did.
+
+git push : This command sends my commits to a remote repository, like GitHub. It helps me share my work or back it up online.
+
+Q2: I disagree with Ahmed. The git add command is important because it lets me choose exactly which changes I want to include in a commit. Sometimes I only want to commit part of my work, not everything. Without git add, it would be harder to control that.
+
+Q3: a) GitLab , Bitbucket
+    b) They usually offer things like pull requests, issue tracking, CI/CD (for automatic    testing and deployment), and ways to review code. This makes it easier to work in teams and keep track of changes.
+    c)True. It’s possible to set up a self-hosted Git server, but it’s more difficult and needs technical knowledge. Most teams use platforms like GitHub because it's easier.
+
+Q4: The -u flag sets the upstream branch. That means Git will remember that my local branch is connected to the remote main branch. After that, I can just use git push or git pull without typing the full command every time. It makes things more convenient.
